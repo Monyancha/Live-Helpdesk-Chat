@@ -287,6 +287,16 @@ public final class Preferences {
             .apply();
     }
 
+    public static boolean isShowcaseDisplayed(String showcaseKey) {
+        return getBoolean("pref_showcase_displayed_" + showcaseKey, false);
+    }
+
+    public static void setShowcaseDisplayed(String showcaseKey) {
+        sPreferences.edit()
+            .putBoolean("pref_showcase_displayed_" + showcaseKey, true)
+            .apply();
+    }
+
     public static long getLastSyncTimestamp() {
         return getLong("pref_last_sync", -1);
     }
