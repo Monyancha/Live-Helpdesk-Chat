@@ -1,4 +1,4 @@
-Kontalk official Android client
+UEAB Live Chat Helpdesk
 ===============================
 
 [![Build Status](https://travis-ci.org/kontalk/androidclient.svg?branch=master)](https://travis-ci.org/kontalk/androidclient)
